@@ -19,6 +19,6 @@ module NeoBot
       g.helper false
       g.jbuilder false
     end
-    config.generators.javascript_engine = :js
+    # config.generators.javascript_engine = :js
   end
 end
