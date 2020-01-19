@@ -1,0 +1,5 @@
+.form
+  = form_with model: @tweet, local: true do |f|
+    p = f.text_area :text, cols: 40, row: 5, maxlength: 116
+    p = f.file_field :image
+    p = f.submit 'save'
